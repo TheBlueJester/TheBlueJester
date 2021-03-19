@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @TheBlueJester
+- 👋 Hi, I’m @TheBlueJester. I'm a Masters Student in Software Dev and AI
 - 👀 I’m interested in Software Development, Hobby Electronics and 3D Printing
 - 🌱 I’m currently learning use Github and learn Python
 - 💞️ I’m looking to collaborate on nothing at this time. Need to improve my skills first.
