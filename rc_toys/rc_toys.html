@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<head>
+
+<title>World of Toys - Home</title>
+
+<link rel="stylesheet" href="../stylesheet.css">
+
+
+</head>
+
+<body>
+    <!-- 
+        The Body is set to be a grid of 3 columns using CSS Grid (Display: Grid) 
+        Columns 1 and 3 dynamically change size to provide even padding on either side of the main content. 
+        Column 2 is given a fixed pixel width to meet the specifications of the assignment. 
+        When viewed on a device with the minimum required resolution the main content fits the screen exactly.
+        When viewed on a larger resolution columns 1 and 2 created padding / blank space on either side of the main content 
+        so that it remains aligned in the center of the users screen.
+    -->
+
+    <!-- Left Padding Column  -->
+    <div class="padding-panel"></div>
+
+    <!-- Container that holds all of the sites content and ensures it meets specified resolution and remains centered -->
+    <div id="container" class="resolution">
+
+
+        <!-- Container to hold the company logo. This containers positioning is controller via CSS Grid -->
+        <div id="logo-container">
+        <img id="logo" class="logo" src="../logo.png" alt="Company Logo">
+        </div>
+        <br>
+
+
+        <!-- Creates an element at the top of the page to hold the navigation elements -->
+        <div id="navigation-bar" class="bar interface grid-container"> 
+        <!-- This DIV element is formatted 2 row and 6 column grid to create a navigation menu -->
+
+            <!-- These 6 icons are inserted into the 6 columns of the top row to sit above the 6 links of the navigation menu -->
+            <!-- SVG Icons are used so they appear the same regardless of screen size or resolution  -->
+
+
+            <img src="../icons/home.svg"          alt="Home Icon"         class="nav-icon">
+            <img src="../icons/boardgames.svg"    alt="Boardgames Icon"   class="nav-icon">
+            <img src="../icons/Lego.svg"          alt="Lego Icon"         class="nav-icon">
+            <img src="../icons/cards.svg"         alt="Cards Icon"        class="nav-icon">
+            <img src="../icons/rc-toys.svg"       alt="RC Toys Icon"      class="nav-icon">
+            <img src="../icons/about-us.svg"      alt="About Us Icon"     class="nav-icon">
+
+            <!-- These 6 links are inserted into the 6 columns of the bottom row to sit under the 6 icons of the navigation menu  -->
+            <a class="nav-link" href="../index.html">Home</a>            
+            <a class="nav-link" href="../board_games/board_games.html">Boardgames</a>      
+            <a class="nav-link" href="../lego_models/lego_models.html">Lego Models</a>
+            <a class="nav-link" href="../playing_cards/playing_cards.html">Playing Cards</a>
+            <a class="nav-link" href="../rc_toys/rc_toys.html">RC Toys</a>
+            <a class="nav-link" href="../about_us.html">About Us</a>
+            
+
+        </div> <!-- End navigation-bar -->
+
+        <br>
+
+        <div id="main-content">
+
+            <div id="welcome-message">
+                <h1> World of Toys: Lego Building Collection </h1>
+                Here at World of Toys we have a wide range of fantastic products. 
+                Please take a look at our wonderful selection, enjoy yourself, and we hope to see you in store soon!
+                <br>
+                <br>
+            </div>
+
+            <div id="products" class="items-list">
+            
+                <div id="lego-opera-house" class="product-box">
+
+                    <div id="description-opera-house" class="item-description">
+                        <h2>Sydney Opera House Set</h2>
+                        <br> <br>
+                        Build one of Australia's most distinctive buildings with this LEGO® set of the Sydney Opera House. <br>
+                        This set helps you build the unmistakable shell roofline to the waterfront forecourt and much more. <br>
+                        What more could you look for in an advanced lego set? 
+                        <a href="">Read More...</a> <br>
+    
+                        <br>
+                        Model Number: 10234 <br>
+                        Completed Size: 28 x 63 x 38cm <br>
+                        Build Time: 4 hours+ <br>
+                        Age Range: 16+ <br>
+                        <br>
+    
+                    </div>
+
+                    <img class="product-img" src="rc1.jpg" alt="Lego Set - Sydney Opera House">
+
+
+                </div>
+
+                <br>
+                    
+                <div id="lego-fingers-sculpture" class="product-box">
+
+                    <div id="description-fingure-sculpture" class="item-description">
+                        <h2>"Giant's Hand" Sculpture</h2>
+                        <br> <br>
+                        Take on this artistic Lego sculpture originally part of Nathan Sawayas's Brick by Brick Exhibit. <br>
+                        Few Lego products let you experiment with building the Human Form in this way. <br>
+                        If you're looking for something unique to build then this is certainly it!
+
+                        <a href="https://www.designboom.com/art/nathan-sawaya-brick-by-brick/">Read More...</a> <br>
+    
+                        <br>
+                        Model Number: 9331 <br>
+                        Completed Size: 15 x 20 x 25cm<br>
+                        Build Time: 3 hours+<br>
+                        Age Range: 12+
+                        <br>
+    
+                    </div>
+
+                    <img class="product-img" src="rc2.jpg" alt="Lego - Giant's Hand Sculpture">
+                    <br>
+
+                </div>
+
+                <br>
+
+                <div id="lego-superman" class="product-box">
+
+                    <div id="description-superman" class="item-description">
+                        
+                        <h2>Superman Lego Set</h2>
+                        <br> <br>
+                        Here is a generic and exciting description about a Lego product. <br>
+                        This product doesn't actually exist and was an exhibit at an expo. <br>
+                        The original sculpture stood 7 feet tall, crazy! <br>
+
+                        <a href="">Read More...</a> <br>
+    
+                        <br>
+                        Model Number: 0000 <br>
+                        Completed Size: 200 x 230 x 210cm<br>
+                        Build Time: 45 hours+<br>
+                        Age Range: 13+ <br>
+                        <br>
+
+                    </div>
+
+                    <img class="product-img" src="rc3.jpg" alt="Lego - Superman Set">
+
+                </div>
+
+                <br>
+
+                <div id="lego-ironman" class="product-box">
+    
+
+                    <div id="description-lego-ironman" class="item-description">
+                        <h2>Ironman Lego Set</h2>
+                        <br><br>
+                        This Ironman set is another example of a life-size lego sculpture. <br>
+                        These life-size builds are typically done by professionals and cannot be purchased in stores. <br>
+                        However through the magic of this product being provided by my lecturer you can buy it here. <br>
+
+                        <a href="">Read More...</a> <br>
+    
+                        <br>
+                        Model Number: 0000 <br>
+                        Completed Size: 220 x 230 x 210cm<br>
+                        Build Time: 45 hours+<br>
+                        Age Range: 13+ <br>
+                        <br>
+
+                    </div>
+
+                    <img class="product-img" src="rc4.jpg" alt="Lego - Ironman Set">
+
+                </div>
+
+                <br>
+
+                <div id="lego-Ferrari" class="product-box">
+    
+                    <div id="description-lego-Ferrari" class="item-description">
+                        <h2>Ferrari</h2>
+                        <br><br>
+                        Unfortunately I am unable to continue to develop actual product descriptions due to time restraints. <br>
+                        From this point forward this place-holder text will be used for all products. <br>
+                        Except for the first product of each page. <br>
+
+                        <a href="">Read More...</a> <br>
+    
+                        <br>
+                        Model Number: 0000 <br>
+                        Completed Size: 40 x 90 x 22cm<br>
+                        Build Time: 2 hours+<br>
+                        Age Range: 17+ <br>
+
+
+                    </div>
+
+                    <img class="product-img" src="rc5.jpg" alt="Lego - Ferrari Set">
+                    <br>
+
+                </div>
+
+                <br>
+
+                <div id="lego-vintage-car" class="product-box">
+
+                    <div id="description-lego-vintage-car" class="item-description">
+                            
+                        <h2>Vintage Car</h2>
+                         <br><br>
+                         Unfortunately I am unable to continue to develop actual product descriptions due to time restraints. <br>
+                         From this point forward this place-holder text will be used for all products. <br>
+                         Except for the first product of each page. <br>
+
+                        <a href="">Read More...</a> <br>
+    
+                        <br>
+                        Model Number: 0000 <br>
+                        Completed Size: ?? x 0.1 x  5^9cm<br>
+                        Build Time: 2.222 hours+<br>
+                        Age Range: 2+ <br>
+
+                    </div>
+
+                    <img class="product-img" src="rc6.jpg" alt="Lego - Vintage Car">
+                    <br>
+
+                </div>
+
+                <br>
+
+                <div id="lego-locomotive" class="product-box">
+    
+
+                    <div id="description-lego-locomotive" class="item-description">
+                        <h2>Locomotive</h2>
+                        <br><br>
+                        Unfortunately I am unable to continue to develop actual product descriptions due to time restraints. <br>
+                        From this point forward this place-holder text will be used for all products. <br>
+                        Except for the first product of each page. <br>
+
+                        <a href="https://www.wikiwand.com/en/Tikal_(board_game)">Read More...</a> <br>
+                        <br>
+    
+                        Model Number: 0001 <br>
+                        Completed Size: 22 x 0.8 x  3.33cm<br>
+                        Build Time: 3.16 hours+<br>
+                        Age Range: 9+ <br>
+                        <br>
+
+                    </div>
+
+                    <img class="product-img" src="rc7.jpg" alt="Lego - Locomotive">
+
+                </div>
+
+                <br><br>
+    
+            </div>
+            
+        </div>
+
+        <div id="footer" class="footer">
+            <br>
+            All Rights Reserved, World of Toys 2022
+            <br>
+            <br>
+        </div>
+        
+
+    </div>
+
+    <!-- Right Padding Column  -->
+    <div class="padding-panel"></div>
+
+
+</body>
+
+<footer>
+
+</footer>

@@ -1,0 +1,41 @@
+
+Remote Controlled Toys
+----------------------
+rc1 - Buldozer
+rc2 - T-Rex
+rc3 - Patrol Boat
+rc4 - Quad Copter
+rc5 - Tank
+rc6 - Boxing Robots
+rc7 - Stunt Plane
+rc8 - Submarine
+
+Lego Models
+-----------
+lg1 - Sydney Opera House
+lg2 - Finger Sculpture
+lg3 - Superman
+lg4 - Ironman
+lg5 - Ferrari
+lg6 - Vintage Car
+lg7 - Locomotive
+
+Board Games
+-----------
+bg1 - Java
+bg2 - Memoir'44
+bg3 - Monopoly
+bg4 - Scrabble
+bg5 - Shogun
+bg6 - Ticket to Ride
+bg7 - Tikal
+
+Playing Cards
+-------------
+cd1 - Bicycle
+cd2 - Nomad
+cd3 - Sentinels
+cd4 - Tycoon
+cd5 - Artisans
+cd6 - Union
+cd7 - Steam Punk

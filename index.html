@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+
+<title>World of Toys - Home</title>
+
+<link rel="stylesheet" href="./stylesheet.css">
+
+
+</head>
+
+<body>
+    <!-- 
+        The Body is set to be a grid of 3 columns using CSS Grid (Display: Grid) 
+        Columns 1 and 3 dynamically change size to provide even padding on either side of the main content. 
+        Column 2 is given a fixed pixel width to meet the specifications of the assignment. 
+        When viewed on a device with the minimum required resolution the main content fits the screen exactly.
+        When viewed on a larger resolution columns 1 and 2 created padding / blank space on either side of the main content 
+        so that it remains aligned in the center of the users screen.
+    -->
+
+    <!-- Left Padding Column  -->
+    <div class="padding-panel"></div>
+
+    <!-- Container that holds all of the sites content and ensures it meets specified resolution and remains centered -->
+    <div id="container" class="resolution">
+
+
+        <!-- Container to hold the company logo. This containers positioning is controller via CSS Grid -->
+        <div id="logo-container">
+        <img id="logo" class="logo" src="logo.png" alt="Company Logo">
+        </div>
+        <br>
+
+
+        <!-- Creates an element at the top of the page to hold the navigation elements -->
+        <div id="navigation-bar" class="bar interface grid-container"> 
+        <!-- This DIV element is formatted 2 row and 6 column grid to create a navigation menu -->
+
+            <!-- These 6 icons are inserted into the 6 columns of the top row to sit above the 6 links of the navigation menu -->
+            <!-- SVG Icons are used so they appear the same regardless of screen size or resolution  -->
+            <!-- SVG Icons are royalty free from game-icons.net (CC 3.0). Authors: Delapouite, Faithtoken, Skoll -->
+
+
+            <img src="./icons/home.svg"          alt="Home Icon"         class="nav-icon">
+            <img src="./icons/boardgames.svg"    alt="Boardgames Icon"   class="nav-icon">
+            <img src="./icons/Lego.svg"          alt="Lego Icon"         class="nav-icon">
+            <img src="./icons/cards.svg"         alt="Cards Icon"        class="nav-icon">
+            <img src="./icons/rc-toys.svg"       alt="RC Toys Icon"      class="nav-icon">
+            <img src="./icons/about-us.svg"      alt="About Us Icon"     class="nav-icon">
+
+            <!-- These 6 links are inserted into the 6 columns of the bottom row to sit under the 6 icons of the navigation menu  -->
+            <a class="nav-link" href="./index.html">Home</a>            
+            <a class="nav-link" href="./board_games/board_games.html">Boardgames</a>      
+            <a class="nav-link" href="./lego_models/lego_models.html">Lego Models</a>
+            <a class="nav-link" href="./playing_cards/playing_cards.html">Playing Cards</a>
+            <a class="nav-link" href="./rc_toys/rc_toys.html">RC Toys</a>
+            <a class="nav-link" href="./about_us.html">About Us</a>
+            
+
+        </div> <!-- End navigation-bar -->
+
+        <br>
+
+        <div id="main-content">
+
+            <div id="welcome-message">
+                <h1> Welcome to World of Toys! </h1>
+                <br>
+                World of Toys is a family owned and operated toy store in the heart of Sydney. <br>
+                We have a passion for the joy that toys, gadgets and games can bring into the lives of loved ones.
+                We strive to have a wide range of products that have been played and approved by our team to ensure the quality and fun factor of all our products. 
+                <br>
+                <br>
+                <img src="./linebreaker.svg" alt="Line Break" class="linebreak">
+                <br>
+                <br>
+                In order to help you find what you're looking for as quickly and easily as possible we've included a store map right here on our site.
+                Please take a look at our wonderful selection, enjoy yourself, and we hope to see you in store soon!
+                <br>
+                <br>
+                <div id="floor-plan-container">
+                    <img src="./floor_plan.png" alt="World of Toys Floor Plan" id="floor-plan">
+                </div>
+                <br>
+                <br>
+                <img src="./linebreaker.svg" alt="Line Break" class="linebreak">
+                <br>
+                <br>
+                If we don't have something you're looking for and you don't know where else to go we are happy to help you source a product from one the supplies in our Network.
+                If we can't find it for you then it probably doesn't exist!
+                <br>
+                <br>
+                <img src="./linebreaker.svg" alt="Line Break" class="linebreak">
+                <br>
+                <br>
+            </div>
+            
+        </div>
+
+        <div id="footer" class="footer">
+            <br>
+            All Rights Reserved, World of Toys 2022
+            <br>
+            <br>
+        </div>
+        
+
+    </div>
+
+    <!-- Right Padding Column  -->
+    <div class="padding-panel"></div>
+
+
+</body>
+
+<footer>
+
+</footer>

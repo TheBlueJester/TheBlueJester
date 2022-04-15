@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<head>
+
+<title>World of Toys - Home</title>
+
+<link rel="stylesheet" href="../stylesheet.css">
+
+
+</head>
+
+<body>
+    <!-- 
+        The Body is set to be a grid of 3 columns using CSS Grid (Display: Grid) 
+        Columns 1 and 3 dynamically change size to provide even padding on either side of the main content. 
+        Column 2 is given a fixed pixel width to meet the specifications of the assignment. 
+        When viewed on a device with the minimum required resolution the main content fits the screen exactly.
+        When viewed on a larger resolution columns 1 and 2 created padding / blank space on either side of the main content 
+        so that it remains aligned in the center of the users screen.
+    -->
+
+    <!-- Left Padding Column  -->
+    <div class="padding-panel"></div>
+
+    <!-- Container that holds all of the sites content and ensures it meets specified resolution and remains centered -->
+    <div id="container" class="resolution">
+
+
+        <!-- Container to hold the company logo. This containers positioning is controller via CSS Grid -->
+        <div id="logo-container">
+        <img id="logo" class="logo" src="../logo.png" alt="Company Logo">
+        </div>
+        <br>
+
+
+        <!-- Creates an element at the top of the page to hold the navigation elements -->
+        <div id="navigation-bar" class="bar interface grid-container"> 
+        <!-- This DIV element is formatted 2 row and 6 column grid to create a navigation menu -->
+
+            <!-- These 6 icons are inserted into the 6 columns of the top row to sit above the 6 links of the navigation menu -->
+            <!-- SVG Icons are used so they appear the same regardless of screen size or resolution  -->
+
+
+            <img src="../icons/home.svg"          alt="Home Icon"         class="nav-icon">
+            <img src="../icons/boardgames.svg"    alt="Boardgames Icon"   class="nav-icon">
+            <img src="../icons/Lego.svg"          alt="Lego Icon"         class="nav-icon">
+            <img src="../icons/cards.svg"         alt="Cards Icon"        class="nav-icon">
+            <img src="../icons/rc-toys.svg"       alt="RC Toys Icon"      class="nav-icon">
+            <img src="../icons/about-us.svg"      alt="About Us Icon"     class="nav-icon">
+
+            <!-- These 6 links are inserted into the 6 columns of the bottom row to sit under the 6 icons of the navigation menu  -->
+            <a class="nav-link" href="../index.html">Home</a>            
+            <a class="nav-link" href="../board_games/board_games.html">Boardgames</a>      
+            <a class="nav-link" href="../lego_models/lego_models.html">Lego Models</a>
+            <a class="nav-link" href="../playing_cards/playing_cards.html">Playing Cards</a>
+            <a class="nav-link" href="../rc_toys/rc_toys.html">RC Toys</a>
+            <a class="nav-link" href="../about_us.html">About Us</a>
+            
+
+        </div> <!-- End navigation-bar -->
+
+        <br>
+
+        <div id="main-content">
+
+            <div id="welcome-message">
+                <h1> World of Toys: Boardgames Collection </h1>
+                Here at World of Toys we have a wide range of fantastic products. 
+                Please take a look at our wonderful selection, enjoy yourself, and we hope to see you in store soon!
+                <br>
+                <br>
+            </div>
+
+            <div id="boardgames" class="items-list">
+            
+                <div id="game-java" class="product-box">
+
+                    <div id="description-java" class="item-description">
+                        <h2>Java</h2>
+                        <br> <br>
+                        Java is a German-style boardgame published in 2000. The game plays out on the island of Java on a hexagonal board. <br>
+                        Players build the island and score by setting up palace festivals at opportune moments. <br>
+                        When players run out of hexagons to build the island, the game is over. <br>
+                        A final scoring phase now takes place and a winner is declared. <br>
+                        <a href="https://www.wikiwand.com/en/Java_(board_game)?wprov=srpw1_0">Read More...</a> <br>
+    
+                        <br>
+                        Players: 2 - 4 <br>
+                        Setup Time: 10 mins <br>
+                        Play Time: 90 mins <br>
+                        Age Range: 12+
+    
+                    </div>
+
+                    <img class="product-img" src="bg1.jpg" alt="Boardgame - Java">
+
+
+                </div>
+
+                <br>
+                    
+                <div id="game-memoir" class="product-box">
+
+                    <div id="description-memoir'44" class="item-description">
+                        <h2>Memoir'44</h2>
+                        <br> <br>
+                        Memoir'44 is a war-themed strategy board game for two players published in 2004. <br>
+                        The game also contains rules for alternate modes that allow: <br> 
+                        - 2 teams of 3 to play and an, <br> 
+                        - "Overlord" scenario for up to eight players requiring 2 copies of the game. <br>
+                        The game simulates over a dozen different battles associated with the D-Day invasions in World War II <br>
+                        <a href="https://www.wikiwand.com/en/Memoir_%2744">Read More...</a> <br>
+    
+                        <br>
+                        Players: 2, 6 or 8 <br>
+                        Setup Time: 10 mins <br>
+                        Play Time: 30-60 mins <br>
+                        Age Range: 8+
+    
+                    </div>
+
+                    <img class="product-img" src="bg2.jpg" alt="Boardgame - Memoir'44">
+                    <br>
+
+                </div>
+
+                <br>
+
+                <div id="game-monopoly" class="product-box">
+
+                    <div id="description-monopoly" class="item-description">
+                        
+                        <h2>Monopoly</h2>
+                        <br> <br>
+                        Monopoly is a multiplayer economics themed board game. <br>
+                        Players buy, trade and develop properties in order to create an environment that will bankrupt other players. <br>
+                        The game contains randomized elements via Dice Throws and 2 Decks of Card containing various random events and effects <br>
+                        Monopoly has been an international hit being licensed in 103+ countries and printed in more than 37 languages.<br>
+                        <a href="https://www.wikiwand.com/en/Monopoly_(game)">Read More...</a> <br>
+    
+                        <br>
+                        Players: 2+ <br>
+                        Setup Time: 2 - 5 mins <br>
+                        Play Time: 20 - 180 mins <br>
+                        Age Range: 7+ 
+                    </div>
+
+                    <img class="product-img" src="bg3.jpg" alt="Boardgame - Monopoly">
+
+                </div>
+
+                <br>
+
+                <div id="game-scrabble" class="product-box">
+    
+
+                    <div id="description-scrabble" class="item-description">
+                        <h2>Scrabble</h2>
+                        <br><br>
+                        Scrabble is a word game played by placing tiles onto a grided board. <br>
+                        Tiles contain single letters and players must spell complete words using tiles from their hands and those already in place on the board. <br>
+                        Words placed by players must connect or otherwise build off existing words and tiles on the board in a crossword like fashion. <br>
+                        The game is hugely popular around with world with over 150 million sets having been sold across the globe. <br>
+                        <a href="https://www.wikiwand.com/en/Scrabble">Read More...</a> <br>
+    
+                        <br>
+                        Players: 2 - 4 <br>
+                        Setup Time: 4 - 8 mins <br>
+                        Play Time: ~50 mins <br>
+                        Age Range: 8+ 
+                    </div>
+
+                    <img class="product-img" src="bg4.jpg" alt="Boardgame - Scrabble">
+
+                </div>
+
+                <br>
+
+                <div id="game-shogun" class="product-box">
+    
+                    <div id="description-shogun" class="item-description">
+                        <h2>Shogun</h2>
+                        <br><br>
+                        Shogun, also known by the name Samurai Swords, is a game about fictional Warlords set in Feudal Japan. <br>
+                        Players take on the role of these Warlords and control a number of military assets including Generals and their armies. <br>
+                        The goal of the game is to strategically leverage your assets in order to take territories and ultimately claim the title of Shogun. <br>
+                        <a href="https://www.wikiwand.com/en/Shogun_(1986_board_game)">Read More...</a> <br>
+    
+                        <br>
+                        Players: 2 - 5 <br>
+                        Setup Time: 10+ mins <br>
+                        Play Time: 240 - 360 mins <br>
+                        Age Range: 12+ 
+                    </div>
+
+                    <img class="product-img" src="bg5.jpg" alt="Boardgame - Shogun">
+
+                </div>
+
+                <br>
+
+                <div id="game-ticket-to-ride" class="product-box">
+
+                    <div id="description-ticket-to-ride" class="item-description">
+                            
+                        <h2>Ticket to Ride</h2>
+                         <br><br>
+                        Ticket to Ride is a railway themed boardgame published in 2004. <br>
+                        The game takes place on a map of a railway system of the United States and Canada. <br>
+                        However many variations now exist based on railway systems from around the world. <br>
+                        Players compete to score the most points by completing randomized goals from a deck of cards. <br>
+                        Each card has a different city pair to connect via railway and grants a different number of points for completing the task.<br>
+                        <a href="https://www.wikiwand.com/en/Ticket_to_Ride_(board_game)">Read More...</a> <br>
+    
+                        <br>
+                        Players: 2 - 5 <br>
+                        Setup Time: 5 mins <br>
+                        Play Time: 60 - 120 mins <br>
+                        Age Range: 6+
+                    </div>
+
+                    <img class="product-img" src="bg6.jpg" alt="Boardgame - Ticket to Ride">
+
+                </div>
+
+                <br>
+
+                <div id="game-tikal" class="product-box">
+    
+
+                    <div id="description-tikal" class="item-description">
+                        <h2>Tikal</h2>
+                        <br><br>
+                        Tikal is an adventure themed games about exploring the jungles of Central America. <br>
+                        Players send teams of explorers into the jungle in order to expose new areas and search for Temples. <br>
+                        Players compete to earn the most points by finding artifacts, excavating and maintaining control over discovered temples. <br>
+                        <a href="https://www.wikiwand.com/en/Tikal_(board_game)">Read More...</a> <br>
+    
+                        <br>
+                        Players: 2 - 4 <br>
+                        Setup Time: 10 mins <br>
+                        Play Time: 60 - 90 mins <br>
+                        Age Range: 10+
+                    </div>
+
+                    <img class="product-img" src="bg7.jpg" alt="Boardgame - Tikal">
+
+                </div>
+
+                <br><br>
+    
+            </div>
+            
+        </div>
+
+        <div id="footer" class="footer">
+            <br>
+            All Rights Reserved, World of Toys 2022
+            <br>
+            <br>
+        </div>
+        
+
+    </div>
+
+    <!-- Right Padding Column  -->
+    <div class="padding-panel"></div>
+
+
+</body>
+
+<footer>
+
+</footer>

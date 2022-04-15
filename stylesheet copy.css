@@ -1,0 +1,118 @@
+.resolution {
+	width: 1024px;
+	height: 1024px;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+	padding: auto auto auto auto;
+}
+
+img {
+	align-self: center;
+	justify-self: center;
+}
+
+body {
+	background-color: rgb(174, 162, 162);
+	display: grid;
+	grid-template-columns: auto 1024px auto;
+	justify-content: center;
+	background-image: url(./background.svg);
+}
+
+p {
+	padding: 10px;
+	margin: 10px;
+}
+
+h1 {
+	font-size: 45px;
+	color: rgb(255, 255, 255);
+	justify-self: center;
+	justify-content: center;
+}
+
+button {
+	font-weight: bold;
+	margin: 5px 5px 5px 40px;
+	padding: 10px;
+	background-color: lightgrey;
+	font-size: 30px;
+	border: solid darkblue 4px;
+	border-radius: 10px;
+}
+
+ul {
+	color: white;
+	margin: 20px;
+	font-size: 30px;
+}
+
+.grid-container {
+	font-size: medium;
+}
+
+.class-list {
+	width: fill;
+}
+
+#navigation-bar {
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: auto auto auto auto auto auto;
+	grid-template-rows: auto auto;
+	border-style: solid;
+	border-color: rgb(162, 85, 165);
+	border-width: 6px;
+	border-radius: 6px;
+	background-color: rgb(174, 162, 162);
+}
+
+.nav-icon {
+	width: 60%;
+	height: 60%;
+}
+
+.nav-link {
+	padding: 0px 20px 10px 20px;
+	font-size: 20pt;
+	color: rgb(162, 85, 165);
+}
+
+#logo-container {
+	width: fill;
+	height: auto;
+	display: grid;
+	grid-template-columns: auto fill auto;
+	justify-content: center;
+	padding: 40px;
+	background-color: transparent;
+}
+
+.logo {
+	align-self: center;
+	animation-name: logoA;
+	animation-timing-function: linear;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	height: 175%;
+	width: auto;
+}
+
+#main-content {
+	align-content: center;
+	justify-self: center;
+	background-color: rgb(174, 162, 162);
+	height: 1024px;
+	border: 6px solid rebeccapurple;
+	border-radius: 6px;
+	padding: 0px 18px 0px 18px;
+	color: aliceblue;
+}
+
+@keyframes logoA {
+	from {filter: hue-rotate(0deg);}
+	50% {filter: hue-rotate(360deg);}
+	to {filter: hue-rotate(0deg);}
+
+};

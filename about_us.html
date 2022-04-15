@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+
+<title>World of Toys - Home</title>
+
+<link rel="stylesheet" href="./stylesheet.css">
+
+
+</head>
+
+<body>
+    <!-- 
+        The Body is set to be a grid of 3 columns using CSS Grid (Display: Grid) 
+        Columns 1 and 3 dynamically change size to provide even padding on either side of the main content. 
+        Column 2 is given a fixed pixel width to meet the specifications of the assignment. 
+        When viewed on a device with the minimum required resolution the main content fits the screen exactly.
+        When viewed on a larger resolution columns 1 and 2 created padding / blank space on either side of the main content 
+        so that it remains aligned in the center of the users screen.
+    -->
+
+    <!-- Left Padding Column  -->
+    <div class="padding-panel"></div>
+
+    <!-- Container that holds all of the sites content and ensures it meets specified resolution and remains centered -->
+    <div id="container" class="resolution">
+
+
+        <!-- Container to hold the company logo. This containers positioning is controller via CSS Grid -->
+        <div id="logo-container">
+        <img id="logo" class="logo" src="logo.png" alt="Company Logo">
+        </div>
+        <br>
+
+
+        <!-- Creates an element at the top of the page to hold the navigation elements -->
+        <div id="navigation-bar" class="bar interface grid-container"> 
+        <!-- This DIV element is formatted 2 row and 6 column grid to create a navigation menu -->
+
+            <!-- These 6 icons are inserted into the 6 columns of the top row to sit above the 6 links of the navigation menu -->
+            <!-- SVG Icons are used so they appear the same regardless of screen size or resolution  -->
+
+
+            <img src="./icons/home.svg"          alt="Home Icon"         class="nav-icon">
+            <img src="./icons/boardgames.svg"    alt="Boardgames Icon"   class="nav-icon">
+            <img src="./icons/Lego.svg"          alt="Lego Icon"         class="nav-icon">
+            <img src="./icons/cards.svg"         alt="Cards Icon"        class="nav-icon">
+            <img src="./icons/rc-toys.svg"       alt="RC Toys Icon"      class="nav-icon">
+            <img src="./icons/about-us.svg"      alt="About Us Icon"     class="nav-icon">
+
+            <!-- These 6 links are inserted into the 6 columns of the bottom row to sit under the 6 icons of the navigation menu  -->
+            <a class="nav-link" href="./index.html">Home</a>            
+            <a class="nav-link" href="./board_games/board_games.html">Boardgames</a>      
+            <a class="nav-link" href="./lego_models/lego_models.html">Lego Models</a>
+            <a class="nav-link" href="./playing_cards/playing_cards.html">Playing Cards</a>
+            <a class="nav-link" href="./rc_toys/rc_toys.html">RC Toys</a>
+            <a class="nav-link" href="./about_us.html">About Us</a>
+            
+
+        </div> <!-- End navigation-bar -->
+
+        <br>
+
+        <div id="main-content">
+
+            <div id="welcome-message">
+                <h1> We are here for you; get in touch! </h1>
+
+
+            </div>
+
+            <div id="opening-times">
+                We are open every weekday and even Saturday's for our friends who are busy working during the week.
+                Please come by during our opening hours as listed below and if you have trouble finding us we've included a map!
+
+                <br><br>
+
+                If you can't make it to us in person we have other options! <br>
+                Email: myfriends@worldoftoys.com.au <br>
+                Phone: (02) 1234 5678 (Check Business Hours Below)
+                <br><br>
+
+                <img src="./linebreaker.svg" alt="Line Break" class="linebreak">
+
+                <br><br>
+
+                <h2>Opening Hours:</h2> 
+                <br> <br>
+
+                <table id="open-times" style="width:100%">
+                    <tr>
+                      <th>Days</th>
+                      <th>Hours</th>
+                    </tr>
+                    <tr>
+                      <td>Monday - Thursday</td>
+                      <td>10:00am to 4:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>10:00am to 1:00pm, 2:00pm to 6:00pm </td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>8:00am to 4:00pm</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <td>Public Holidays</td>
+                        <td>Closed</td>
+                    </tr>
+
+                  </table>
+
+                <br><br>
+
+                <img src="./linebreaker.svg" alt="Line Break" class="linebreak">
+
+            </div>
+
+            <div id="map-container">
+                <h2>Getting here is easier than a round of Go Fish!</h2>
+                You can find out store at: <br> 
+                123 Gumdrop Lane, Sydney, New South Whales, 2001, Australia
+                <br>
+                <br>
+            
+                <img src="./store_location.png" class="map" alt="City Map - Store Location">
+
+                <br><br>
+
+                <img src="./linebreaker.svg" alt="Line Break" class="linebreak">
+
+                <br><br>
+
+            </div>
+
+
+            
+            
+        </div>
+
+        <div id="footer" class="footer">
+            <br>
+            All Rights Reserved, World of Toys 2022
+            <br>
+            <br>
+        </div>
+        
+
+    </div>
+
+    <!-- Right Padding Column  -->
+    <div class="padding-panel"></div>
+
+
+</body>
+
+<footer>
+
+</footer>
